@@ -1,0 +1,153 @@
+{% load staticfiles %}
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  {% block title %}
+    <title>Founders Network</title>
+  {% endblock %}
+    <link rel="stylesheet" href="{% static "css/main.css" %}">
+    <!-- <link href="/static/css/guiders.css" rel="stylesheet"> -->
+{% block moreresources %}
+{% endblock %}
+
+  {% block head %}
+  {% endblock %}
+</head>
+
+<header>
+    <div class="all_top">
+        <div class="top_nav">
+            <center>
+                <div>
+                    <img class="logo" src="{% static url %}images/logo.png">
+                    <img class="search" src="{% static url %}images/search.png">
+                    <img class="profilepic" src="{% static url %}images/pp.png">
+                </div>
+            </center>
+        </div>
+        <center>
+            <div class="all_nav">
+                 <nav class="navbar">
+                     <ul class="style_nav">
+                         <li><a href="#">HOME</a></li>
+                         <li><img class="line" src="{% static url %}images/line.png"></li>
+                         <li><a href="#">FORUM</a></li>
+                         <li><img class="line" src="{% static url %}images/line.png"></li>
+                         <li><a href="#">FUNCTIONS</a></li>
+                         <li><img class="line" src="{% static url %}images/line.png"></li>
+                         <li><a href="#">MEMBERS</a></li>
+                         <li><img class="line" src="{% static url %}images/line.png"></li>
+                         <li><a href="#">COMPANIES</a></li>
+                         <li><img class="line" src="{% static url %}images/line.png"></li>
+                         <li><a href="#">GROUPS</a></li>
+                         <li><img class="line" src="{% static url %}images/line.png"></li>
+                         <li><a href="#">DEALS</a></li>
+                         <li><img class="line" src="{% static url %}images/line.png"></li>
+                         <li><a href="#">NOMINATE</a></li>
+                     </ul>
+                 </nav>
+            </div>
+        </center>
+    </div>
+</header>
+<center>
+<body>
+<div class="page_title">
+    <center>
+        <div class="title_content">
+            <h3 class="title">{% block billing_title %}{% endblock %}</h3>
+        </div>
+    </center>
+</div>
+
+
+    <div class="side_nav_container">
+
+            <div class="side_nav">
+                <img class="nav_line1" src="{% static url %}images/side_nav_line.png">
+                <img class="nav_line2" src="{% static url %}images/side_nav_line.png">
+                <img class="nav_line3" src="{% static url %}images/side_nav_line.png">
+                <table id="side_nav_content">
+                    <tr>
+                        <td class="nav_title"><img class="nav_title_logo" src="{% static url %}images/bar_graph.png"> Stage</td>
+                    </tr>
+                    <tr>
+                        <td class="left-column"><label><input type="radio" name="radio"></label> Series A</td>
+                        <td class="right-column1">3</td>
+                    </tr>
+                    <tr>
+                        <td class="left-column"><label><input type="radio" name="radio"></label> Angel</td>
+                        <td class="right-column1">6</td>
+                    </tr>
+                    <tr>
+                        <td class="left-column"><label><input type="radio" name="radio"></label> Bootstrap</td>
+                        <td class="right-column1">4</td>
+                    </tr>
+                </table>
+                <table id="side_nav_content">
+                    <tr>
+                        <td class="nav_title"><img class="nav_title_logo" src="{% static url %}images/chart_pie.png"> Selectors</td>
+                    </tr>
+                    <tr>
+                        <td class="left-column"><label><input type="radio" name="radio"></label> Consumer Internet</td>
+                        <td class="right-column2">13</td>
+                    </tr>
+                    <tr>
+                        <td class="left-column"><label><input type="radio" name="radio"></label> Enterprise Software</td>
+                        <td class="right-column2">14</td>
+                    </tr>
+                    <tr>
+                        <td class="left-column"><label><input type="radio" name="radio"></label> Multiple Startups</td>
+                        <td class="right-column2">26</td>
+                    </tr>
+                    <tr>
+                        <td class="left-column"><label><input type="radio" name="radio"></label> Business</td>
+                        <td class="right-column2">12</td>
+                    </tr>
+                    <tr>
+                        <td class="left-column"><label><input type="radio" name="radio"></label> Development</td>
+                        <td class="right-column2">14</td>
+                    </tr>
+                    <tr>
+                        <td class="left-column"><label><input type="radio" name="radio"></label> Marketing</td>
+                        <td class="right-column2">23</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">More</a></td>
+                    </tr>
+                </table>
+                <table id="side_nav_content">
+                    <tr>
+                        <td class="nav_title"><img class="nav_title_logo" src="{% static url %}images/map2.png"> City</td>
+                    </tr>
+                    <tr>
+                        <td class="left-column"><label><input type="radio" name="radio"></label> San Francisco</td>
+                        <td class="right-column3">3</td>
+                    </tr>
+                    <tr>
+                        <td class="left-column"><label><input type="radio" name="radio"></label> San Jose</td>
+                        <td class="right-column3">1</td>
+                    </tr>
+                    <tr>
+                        <td class="left-column"><label><input type="radio" name="radio"></label> Los Angeles</td>
+                        <td class="right-column3">6</td>
+                    </tr>
+                    <tr>
+                        <td class="left-column"><label><input type="radio" name="radio"></label> New York</td>
+                        <td class="right-column3">4</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">More</a></td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+
+<div class="content-container">
+{% block content %}
+{% endblock %}
+</div>
+
+
+</body>
+</center>

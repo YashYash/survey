@@ -1,0 +1,250 @@
+
+/* CSS for home.html. The main template */
+html{
+    margin:0;
+    width:100%;
+    align-content: center;
+
+}
+
+body{
+    width:100%;
+
+}
+.all_top{
+    background-image: url("../images/top_back.png");
+    background-size: cover;
+    margin:0px;
+    width:100%;
+    height:170px;
+
+}
+.top_nav{
+    width:100%;
+    align-content: center;
+    position: relative;
+    top:15px;
+
+}
+.logo{
+    position: relative;
+    right:155px;
+    top:9px;
+}
+
+.profilepic{
+    border-radius: 5px;
+
+    width:51px;
+    height: 56px;
+    position: relative;
+    left:100px;
+    top:5px;
+}
+
+.search{
+    position: relative;
+    height:33px;
+    right:50px;
+    width:464px;
+
+}
+.all_nav{
+    position: relative;
+    top:10px;
+    background-image: url("../images/nav_back.png");
+    background-size: cover;
+    height:29%;
+    width:100%;
+}
+.style_nav{
+    list-style-type:none;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb( 255, 255, 255 );
+    font-family: "Helvetica Neue";
+    padding-top: 0px;
+}
+
+.style_nav > li{
+    display: inline;
+    margin-right:25px;
+
+}
+
+.style_nav > li > a{
+    text-decoration: none;
+    color: rgb( 255, 255, 255 );
+}
+
+.style_nav > li > a:hover{
+    font-size:16px;
+}
+
+.line{
+    position: relative;
+    top:10px;
+}
+
+/* CSS for network-approvals(1).html. */
+
+.page_title{
+    background-image: url("../images/top_back.png");
+    height:50px;
+    margin:0;
+    position: relative;
+    bottom:0px;
+    z-index: -10;
+    text-align: left;
+
+}
+
+.title_content{
+    float:left;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    color: rgb( 47, 102, 102 );
+    z-index: -10;
+    position: relative;
+    left:190px;
+    bottom:25px;
+
+}
+
+.side_nav_container{
+    position: relative;
+    right:320px;
+}
+
+.side_nav{
+
+    width:300px;
+    float:left;
+
+
+}
+
+
+
+
+
+#side_nav_content{
+    float:left;
+    list-style-type:none;
+    font-size: 14px;
+    font-family: "Helvetica Neue";
+    color: rgb( 105, 105, 105 );
+    text-align: left;
+}
+
+#side_nav_content > li{
+    padding:10px;
+}
+
+#side_nav_content > li > a{
+    text-decoration: none;
+    color: rgb( 105, 105, 105 );
+}
+
+.side_nav_img{
+    position: relative;
+    top:4px;
+    padding-right:10px;
+}
+
+table{
+    padding:20px;
+
+}
+
+.table_title{
+    width:100%;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    color: rgb( 0, 0, 0 );
+    font-weight: bold;
+    text-align: left;
+    float:left;
+    padding-bottom:50px;
+    position: relative;
+    right:30px;
+}
+
+
+
+.nav_title{
+  font-size: 20px;
+  font-family: "Helvetica Neue";
+  color: rgb( 51, 51, 51 );
+  font-weight: bold;
+  line-height: 1.946;
+
+}
+
+.nav_line1{
+    position:relative;
+    top:150px;
+    right:30px;
+}
+.nav_line2{
+    position:relative;
+    top:390px;
+    right:30px;
+}
+
+.nav_line3{
+    position:relative;
+    top:580px;
+    right:30px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    -ms-appearance: checkbox;     /* not currently supported */
+    -o-appearance: checkbox;      /* not currently supported */
+}
+
+.right-column1{
+    padding-left:110px;
+    float:right;
+
+}
+
+.right-column2{
+    padding-left:40px;
+    float:right;
+
+}
+
+.right-column3{
+    padding-left:82px;
+    float:right;
+
+}
+
+.content-container{
+    border: 2px solid black;
+    width:710px;
+    height:692px;
+    position: relative;
+    left:150px;
+    top:50px;
+}
+
+/*Page one*/
+
+.block-one{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width:100%;
+    height:340px;
+    margin-bottom: 12px;
+}
+
+.profile_big{
+    position: absolute;
+    right:583px;
+    top:12px;
+    border-radius: 5px;
+}
